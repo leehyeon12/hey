@@ -1,8 +1,8 @@
 {
   "pages": [
     {
-      "pageName": "Page227",
-      "pagePath": "/new-page1",
+      "pageName": "Page363",
+      "pagePath": "/home",
       "children": [
         {
           "type": "div",
@@ -109,18 +109,38 @@
                               },
                               "children": [
                                 {
-                                  "type": "span",
-                                  "text": "about",
-                                  "props": {
-                                    "style": {
-                                      "margin": "20px"
+                                  "type": "Link",
+                                  "variant": "default",
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "text": "about",
+                                      "props": {
+                                        "style": {
+                                          "margin": "20px"
+                                        }
+                                      }
                                     }
+                                  ],
+                                  "namespace": "Router",
+                                  "props": {
+                                    "to": "/home"
                                   }
                                 },
                                 {
-                                  "type": "span",
-                                  "text": "work",
-                                  "props": {}
+                                  "type": "Link",
+                                  "variant": "default",
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "text": "work",
+                                      "props": {}
+                                    }
+                                  ],
+                                  "namespace": "Router",
+                                  "props": {
+                                    "to": "/work"
+                                  }
                                 }
                               ]
                             }
@@ -177,7 +197,6 @@
                                   "variant": "default",
                                   "props": {
                                     "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/t/5a21138fc8302566a3ba66a3/1512118871198/yuanwang_profilepic?format=500w",
-                                    "sytle": {},
                                     "style": {
                                       "maxHeight": "433px",
                                       "maxWidth": "431px",
@@ -215,7 +234,7 @@
                                       "props": {
                                         "style": {
                                           "display": "block",
-                                          "fontFamily": "futura-pt",
+                                          "fontFamily": "FuturaPTWeb",
                                           "letterSpacing": "0.35em",
                                           "lineHeight": "1.2em",
                                           "fontWeight": 500,
@@ -240,7 +259,8 @@
                                           "textAlign": "center",
                                           "textTransform": "uppercase",
                                           "lineHeight": "1.2em",
-                                          "color": "#ffffff"
+                                          "color": "#ffffff",
+                                          "fontFamily": "FuturaPTWeb"
                                         }
                                       }
                                     }
@@ -269,7 +289,8 @@
                                   "paddingRight": "15px",
                                   "paddingBottom": "15px",
                                   "paddingLeft": "15px",
-                                  "color": "#ffffff"
+                                  "color": "#ffffff",
+                                  "fontFamily": "omnes"
                                 }
                               },
                               "children": [
@@ -374,246 +395,6 @@
           "props": {
             "style": {
               "paddingRight": "70px",
-              "paddingLeft": "70px",
-              "paddingTop": "25px",
-              "paddingBottom": "25px"
-            }
-          },
-          "children": [
-            {
-              "type": "div",
-              "variant": "default",
-              "props": {
-                "style": {
-                  "display": "block",
-                  "justifyContent": "center",
-                  "alignItems": "center"
-                }
-              },
-              "children": [
-                {
-                  "type": "div",
-                  "variant": "default",
-                  "props": {},
-                  "children": [
-                    {
-                      "type": "Row",
-                      "variant": "default",
-                      "children": [
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [
-                            {
-                              "type": "div",
-                              "variant": "default",
-                              "props": {
-                                "style": {
-                                  "display": "inline"
-                                }
-                              },
-                              "children": [
-                                {
-                                  "type": "img",
-                                  "variant": "default",
-                                  "props": {
-                                    "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/t/5a21138fc8302566a3ba66a3/1512118871198/yuanwang_profilepic?format=500w",
-                                    "sytle": {},
-                                    "style": {
-                                      "maxHeight": "433px",
-                                      "maxWidth": "431px",
-                                      "width": "100%"
-                                    }
-                                  },
-                                  "children": []
-                                }
-                              ]
-                            },
-                            {
-                              "type": "div",
-                              "variant": "default",
-                              "props": {},
-                              "children": [
-                                {
-                                  "type": "div",
-                                  "variant": "default",
-                                  "props": {
-                                    "style": {
-                                      "display": "inline-block",
-                                      "justifyContent": "center",
-                                      "alignItems": "center",
-                                      "backgroundColor": "#73beee",
-                                      "padding": "5%",
-                                      "position": "absolute",
-                                      "right": "40px",
-                                      "top": "15px"
-                                    }
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "span",
-                                      "text": "Hello",
-                                      "props": {
-                                        "style": {
-                                          "display": "block",
-                                          "fontFamily": "futura-pt",
-                                          "letterSpacing": "0.35em",
-                                          "lineHeight": "1.2em",
-                                          "fontWeight": 500,
-                                          "color": "#ffffff",
-                                          "textAlign": "center",
-                                          "fontSize": "31.6123px",
-                                          "textTransform": "uppercase",
-                                          "fontStyle": "italic"
-                                        }
-                                      }
-                                    },
-                                    {
-                                      "type": "span",
-                                      "text": "i'm yuan",
-                                      "props": {
-                                        "style": {
-                                          "display": "block",
-                                          "fontSize": "18.1192px",
-                                          "fontStyle": "italic",
-                                          "fontWeight": 400,
-                                          "letterSpacing": "0.26em",
-                                          "textAlign": "center",
-                                          "textTransform": "uppercase",
-                                          "lineHeight": "1.2em",
-                                          "color": "#ffffff"
-                                        }
-                                      }
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": 6
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [
-                            {
-                              "type": "div",
-                              "variant": "default",
-                              "props": {
-                                "style": {
-                                  "display": "inline-block",
-                                  "justifyContent": "center",
-                                  "alignItems": "center",
-                                  "paddingRight": "15px",
-                                  "paddingBottom": "15px",
-                                  "paddingLeft": "15px",
-                                  "color": "#ffffff"
-                                }
-                              },
-                              "children": [
-                                {
-                                  "type": "span",
-                                  "text": "My name is Yuan (\"you-en\"). Currently, I'm an experience design lead at Airbnb, working on Guest Experiences.",
-                                  "props": {
-                                    "style": {
-                                      "display": "block",
-                                      "color": "#14171a",
-                                      "fontSize": "12px",
-                                      "fontWeight": 400,
-                                      "letterSpacing": "0.6px",
-                                      "lineHeight": "30px"
-                                    }
-                                  }
-                                },
-                                {
-                                  "type": "span",
-                                  "text": "I spent the past 3.5 years designing at Twitter, where I worked on projects from Growth &amp; Onboarding, Abuse &amp; Safety, to Tweets &amp; Conversations. Prior to Twitter, I led the experience design of Firefox mobile products at Mozilla, and studied HCI at Carnegie Mellon University.",
-                                  "props": {
-                                    "style": {
-                                      "display": "block",
-                                      "color": "#14171a",
-                                      "fontSize": "12px",
-                                      "marginTop": "20px",
-                                      "fontWeight": 400,
-                                      "letterSpacing": "0.6px",
-                                      "lineHeight": "30px"
-                                    }
-                                  }
-                                },
-                                {
-                                  "type": "span",
-                                  "text": "I enjoy bringing creative ideas to life through strong empathy, systematic thinking and collaborative execution. I focus on building cross-team relationships, improving team culture and communications.",
-                                  "props": {
-                                    "style": {
-                                      "display": "block",
-                                      "color": "#14171a",
-                                      "fontSize": "12px",
-                                      "marginTop": "20px",
-                                      "fontWeight": 400,
-                                      "letterSpacing": "0.6px",
-                                      "lineHeight": "30px"
-                                    }
-                                  }
-                                },
-                                {
-                                  "type": "span",
-                                  "text": "Besides design, I spend lots of time painting and crafting. \"Ink+Water\" features a series of ink paintings inspired by Chinese classical poetry. My work was invited to a global group exhibit \"Enter Into Art\" in Cologne, Germany in 2017.",
-                                  "props": {
-                                    "style": {
-                                      "display": "block",
-                                      "color": "#14171a",
-                                      "fontSize": "12px",
-                                      "marginTop": "20px",
-                                      "fontWeight": 400,
-                                      "letterSpacing": "0.6px",
-                                      "lineHeight": "30px"
-                                    }
-                                  }
-                                },
-                                {
-                                  "type": "span",
-                                  "text": "In addition, I enjoy spending time with my husband and 2 rescued kitties, salsa dancing, and urban gardening in the always chilly SF.",
-                                  "props": {
-                                    "style": {
-                                      "display": "block",
-                                      "color": "#14171a",
-                                      "fontSize": "12px",
-                                      "marginTop": "20px",
-                                      "fontWeight": 400,
-                                      "letterSpacing": "0.6px",
-                                      "lineHeight": "30px"
-                                    }
-                                  }
-                                }
-                              ]
-                            }
-                          ],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": 6,
-                            "style": {
-                              "color": "#ffffff"
-                            }
-                          }
-                        }
-                      ],
-                      "namespace": "Layout"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "div",
-          "variant": "default",
-          "props": {
-            "style": {
-              "paddingRight": "70px",
               "paddingLeft": "70px"
             }
           },
@@ -681,8 +462,8 @@
       ]
     },
     {
-      "pageName": "Page226",
-      "pagePath": "/new-page2",
+      "pageName": "Page381",
+      "pagePath": "/work",
       "children": [
         {
           "type": "div",
@@ -784,18 +565,38 @@
                           },
                           "children": [
                             {
-                              "type": "span",
-                              "text": "about",
-                              "props": {
-                                "style": {
-                                  "margin": "20px"
+                              "type": "Link",
+                              "variant": "default",
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "about",
+                                  "props": {
+                                    "style": {
+                                      "margin": "20px"
+                                    }
+                                  }
                                 }
+                              ],
+                              "namespace": "Router",
+                              "props": {
+                                "to": "/home"
                               }
                             },
                             {
-                              "type": "span",
-                              "text": "work",
-                              "props": {}
+                              "type": "Link",
+                              "variant": "default",
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "work",
+                                  "props": {}
+                                }
+                              ],
+                              "namespace": "Router",
+                              "props": {
+                                "to": "/work"
+                              }
                             }
                           ]
                         }
@@ -806,12 +607,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "div",
-          "variant": "default",
-          "props": {},
-          "children": []
         },
         {
           "type": "div",
@@ -1061,7 +856,7 @@
                       "cursor": "pointer",
                       "lineHeight": "12px",
                       "fontWeight": 500,
-                      "letterSpacing": "2.88px",
+                      "letterSpacing": "0.1em",
                       "marginRight": "10px"
                     }
                   }
@@ -1077,7 +872,7 @@
                       "cursor": "pointer",
                       "lineHeight": "12px",
                       "fontWeight": 500,
-                      "letterSpacing": "2.88px",
+                      "letterSpacing": "0.1em",
                       "marginRight": "10px"
                     }
                   }
@@ -1093,7 +888,7 @@
                       "cursor": "pointer",
                       "lineHeight": "12px",
                       "fontWeight": 500,
-                      "letterSpacing": "2.88px"
+                      "letterSpacing": "0.1em"
                     }
                   }
                 }
@@ -1104,8 +899,8 @@
       ]
     },
     {
-      "pageName": "Page226",
-      "pagePath": "/new-page3",
+      "pageName": "Page387",
+      "pagePath": "/work-01",
       "children": [
         {
           "type": "div",
@@ -1362,7 +1157,8 @@
                                               "textTransform": "uppercase",
                                               "letterSpacing": "0.13px",
                                               "textAlign": "left",
-                                              "marginBottom": "13px"
+                                              "marginBottom": "13px",
+                                              "fontFamily": "omnes"
                                             }
                                           }
                                         },
@@ -1800,7 +1596,7 @@
                               "children": [
                                 {
                                   "type": "span",
-                                  "text": "DISCOVER &amp; CONSUME A THREAD",
+                                  "text": "DISCOVER  CONSUME A THREAD",
                                   "props": {
                                     "style": {
                                       "display": "inline-block",
@@ -1812,7 +1608,7 @@
                                       "cursor": "auto",
                                       "lineHeight": "1em",
                                       "letterSpacing": "0.2em",
-                                      "fontFaily": "FuturaPTWeb"
+                                      "fontFamily": "FuturaPTWeb"
                                     }
                                   }
                                 },
@@ -2196,7 +1992,8 @@
                                           "cursor": "auto",
                                           "lineHeight": "1.8em",
                                           "letterSpacing": "0.13em",
-                                          "textTransform": "uppercase"
+                                          "textTransform": "uppercase",
+                                          "fontFamily": "omnes"
                                         }
                                       }
                                     }
@@ -2323,7 +2120,8 @@
                                           "cursor": "auto",
                                           "lineHeight": "1.8em",
                                           "letterSpacing": "0.13em",
-                                          "textTransform": "uppercase"
+                                          "textTransform": "uppercase",
+                                          "fontFamily": "omnes"
                                         }
                                       }
                                     }
@@ -2438,13 +2236,14 @@
                                       "display": "block",
                                       "justifyContent": "center",
                                       "alignItems": "center",
-                                      "marginBottom": "13px"
+                                      "marginBottom": "13px",
+                                      "fontFamily": "omnes"
                                     }
                                   },
                                   "children": [
                                     {
                                       "type": "span",
-                                      "text": "PROTOTYPING &amp; TESTING",
+                                      "text": "PROTOTYPING TESTING",
                                       "props": {
                                         "style": {
                                           "fontSize": "13px",
@@ -2799,13 +2598,6 @@
                                   "display": "flex"
                                 }
                               }
-                            },
-                            {
-                              "type": "Column",
-                              "variant": "default",
-                              "children": [],
-                              "namespace": "Layout",
-                              "props": {}
                             }
                           ],
                           "namespace": "Layout"
@@ -2857,11 +2649,11 @@
                                 "style": {
                                   "fontSize": "12.5px",
                                   "fontFamily": "FuturaPTWeb",
-                                  "fontWeight": 500,
                                   "cursor": "pointer",
                                   "lineHeight": "2em",
                                   "letterSpacing": "0.1em",
-                                  "textTransform": "uppercase"
+                                  "textTransform": "uppercase",
+                                  "fontWeight": 500
                                 }
                               }
                             }
@@ -2926,45 +2718,6 @@
                           ]
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "pageName": "Page227",
-      "pagePath": "/new-page1-1",
-      "children": [
-        {
-          "type": "div",
-          "props": {
-            "style": {
-              "display": "flex",
-              "justifyContent": "center",
-              "alignItems": "center",
-              "padding": "1em"
-            }
-          },
-          "children": [
-            {
-              "type": "div",
-              "children": [
-                {
-                  "type": "h3",
-                  "props": {
-                    "style": {
-                      "padding": "1em",
-                      "textAlign": "center"
-                    }
-                  },
-                  "children": [
-                    {
-                      "type": "span",
-                      "text": "Click on me and start creating a new cool component."
                     }
                   ]
                 }
