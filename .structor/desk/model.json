@@ -1,8 +1,2943 @@
 {
   "pages": [
     {
-      "pageName": "Page28",
-      "pagePath": "/new-page",
+      "pageName": "Page227",
+      "pagePath": "/new-page1",
+      "children": [
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {},
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "textAlign": "center",
+                  "paddingTop": "18px",
+                  "paddingRight": "68px",
+                  "paddingBottom": "18px",
+                  "paddingLeft": "68px"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "textAlign": "start"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "paddingTop": "5px",
+                          "paddingRight": "200px",
+                          "paddingBottom": "5px",
+                          "paddingLeft": "5px"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "textAlign": "left",
+                              "alignItems": "center",
+                              "display": "inline-block",
+                              "position": "relative"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "yuan wang",
+                              "props": {
+                                "style": {
+                                  "textTransform": "uppercase",
+                                  "letterSpacing": "1em",
+                                  "cursor": "pointer",
+                                  "fontSize": "16px",
+                                  "fontWeight": 700,
+                                  "fontStyle": "normal",
+                                  "lineHeight": "16px",
+                                  "color": "#000000",
+                                  "fontFamily": "FuturaPTWeb"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "display": "inline-block"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "position": "absolute",
+                                  "right": "70px",
+                                  "top": "25px",
+                                  "textTransform": "uppercase",
+                                  "fontSize": "12px",
+                                  "fontStyle": "normal",
+                                  "fontWeight": 500,
+                                  "letterSpacing": "2.88px",
+                                  "cursor": "pointer",
+                                  "lineHeight": "12px",
+                                  "color": "#4f4f4f",
+                                  "paddingRight": "10px",
+                                  "fontFamily": "FuturaPTWeb"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "about",
+                                  "props": {
+                                    "style": {
+                                      "margin": "20px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "span",
+                                  "text": "work",
+                                  "props": {}
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "MycComponents",
+          "variant": "default",
+          "props": {},
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "block",
+                  "justifyContent": "center",
+                  "alignItems": "center"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "Row",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "Column",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "inline"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "img",
+                                  "variant": "default",
+                                  "props": {
+                                    "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/t/5a21138fc8302566a3ba66a3/1512118871198/yuanwang_profilepic?format=500w",
+                                    "sytle": {},
+                                    "style": {
+                                      "maxHeight": "433px",
+                                      "maxWidth": "431px",
+                                      "width": "100%"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "inline-block",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "backgroundColor": "#73beee",
+                                      "padding": "5%",
+                                      "position": "absolute",
+                                      "right": "40px",
+                                      "top": "15px"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "text": "Hello",
+                                      "props": {
+                                        "style": {
+                                          "display": "block",
+                                          "fontFamily": "futura-pt",
+                                          "letterSpacing": "0.35em",
+                                          "lineHeight": "1.2em",
+                                          "fontWeight": 500,
+                                          "color": "#ffffff",
+                                          "textAlign": "center",
+                                          "fontSize": "31.6123px",
+                                          "textTransform": "uppercase",
+                                          "fontStyle": "italic"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "span",
+                                      "text": "i'm yuan",
+                                      "props": {
+                                        "style": {
+                                          "display": "block",
+                                          "fontSize": "18.1192px",
+                                          "fontStyle": "italic",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0.26em",
+                                          "textAlign": "center",
+                                          "textTransform": "uppercase",
+                                          "lineHeight": "1.2em",
+                                          "color": "#ffffff"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "namespace": "Layout",
+                          "props": {
+                            "col": 6
+                          }
+                        },
+                        {
+                          "type": "Column",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "paddingRight": "15px",
+                                  "paddingBottom": "15px",
+                                  "paddingLeft": "15px",
+                                  "color": "#ffffff"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "My name is Yuan (\"you-en\"). Currently, I'm an experience design lead at Airbnb, working on Guest Experiences.",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "color": "#14171a",
+                                      "fontSize": "12px",
+                                      "fontWeight": 400,
+                                      "letterSpacing": "0.6px",
+                                      "lineHeight": "30px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "span",
+                                  "text": "I spent the past 3.5 years designing at Twitter, where I worked on projects from Growth &amp; Onboarding, Abuse &amp; Safety, to Tweets &amp; Conversations. Prior to Twitter, I led the experience design of Firefox mobile products at Mozilla, and studied HCI at Carnegie Mellon University.",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "color": "#14171a",
+                                      "fontSize": "12px",
+                                      "marginTop": "20px",
+                                      "fontWeight": 400,
+                                      "letterSpacing": "0.6px",
+                                      "lineHeight": "30px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "span",
+                                  "text": "I enjoy bringing creative ideas to life through strong empathy, systematic thinking and collaborative execution. I focus on building cross-team relationships, improving team culture and communications.",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "color": "#14171a",
+                                      "fontSize": "12px",
+                                      "marginTop": "20px",
+                                      "fontWeight": 400,
+                                      "letterSpacing": "0.6px",
+                                      "lineHeight": "30px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "span",
+                                  "text": "Besides design, I spend lots of time painting and crafting. \"Ink+Water\" features a series of ink paintings inspired by Chinese classical poetry. My work was invited to a global group exhibit \"Enter Into Art\" in Cologne, Germany in 2017.",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "color": "#14171a",
+                                      "fontSize": "12px",
+                                      "marginTop": "20px",
+                                      "fontWeight": 400,
+                                      "letterSpacing": "0.6px",
+                                      "lineHeight": "30px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "span",
+                                  "text": "In addition, I enjoy spending time with my husband and 2 rescued kitties, salsa dancing, and urban gardening in the always chilly SF.",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "color": "#14171a",
+                                      "fontSize": "12px",
+                                      "marginTop": "20px",
+                                      "fontWeight": 400,
+                                      "letterSpacing": "0.6px",
+                                      "lineHeight": "30px"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "namespace": "Layout",
+                          "props": {
+                            "col": 6,
+                            "style": {
+                              "color": "#ffffff"
+                            }
+                          }
+                        }
+                      ],
+                      "namespace": "Layout"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "namespace": "MycComponents"
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "paddingRight": "70px",
+              "paddingLeft": "70px",
+              "paddingTop": "25px",
+              "paddingBottom": "25px"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "block",
+                  "justifyContent": "center",
+                  "alignItems": "center"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "Row",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "Column",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "inline"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "img",
+                                  "variant": "default",
+                                  "props": {
+                                    "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/t/5a21138fc8302566a3ba66a3/1512118871198/yuanwang_profilepic?format=500w",
+                                    "sytle": {},
+                                    "style": {
+                                      "maxHeight": "433px",
+                                      "maxWidth": "431px",
+                                      "width": "100%"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "inline-block",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "backgroundColor": "#73beee",
+                                      "padding": "5%",
+                                      "position": "absolute",
+                                      "right": "40px",
+                                      "top": "15px"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "text": "Hello",
+                                      "props": {
+                                        "style": {
+                                          "display": "block",
+                                          "fontFamily": "futura-pt",
+                                          "letterSpacing": "0.35em",
+                                          "lineHeight": "1.2em",
+                                          "fontWeight": 500,
+                                          "color": "#ffffff",
+                                          "textAlign": "center",
+                                          "fontSize": "31.6123px",
+                                          "textTransform": "uppercase",
+                                          "fontStyle": "italic"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "span",
+                                      "text": "i'm yuan",
+                                      "props": {
+                                        "style": {
+                                          "display": "block",
+                                          "fontSize": "18.1192px",
+                                          "fontStyle": "italic",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0.26em",
+                                          "textAlign": "center",
+                                          "textTransform": "uppercase",
+                                          "lineHeight": "1.2em",
+                                          "color": "#ffffff"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "namespace": "Layout",
+                          "props": {
+                            "col": 6
+                          }
+                        },
+                        {
+                          "type": "Column",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "paddingRight": "15px",
+                                  "paddingBottom": "15px",
+                                  "paddingLeft": "15px",
+                                  "color": "#ffffff"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "My name is Yuan (\"you-en\"). Currently, I'm an experience design lead at Airbnb, working on Guest Experiences.",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "color": "#14171a",
+                                      "fontSize": "12px",
+                                      "fontWeight": 400,
+                                      "letterSpacing": "0.6px",
+                                      "lineHeight": "30px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "span",
+                                  "text": "I spent the past 3.5 years designing at Twitter, where I worked on projects from Growth &amp; Onboarding, Abuse &amp; Safety, to Tweets &amp; Conversations. Prior to Twitter, I led the experience design of Firefox mobile products at Mozilla, and studied HCI at Carnegie Mellon University.",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "color": "#14171a",
+                                      "fontSize": "12px",
+                                      "marginTop": "20px",
+                                      "fontWeight": 400,
+                                      "letterSpacing": "0.6px",
+                                      "lineHeight": "30px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "span",
+                                  "text": "I enjoy bringing creative ideas to life through strong empathy, systematic thinking and collaborative execution. I focus on building cross-team relationships, improving team culture and communications.",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "color": "#14171a",
+                                      "fontSize": "12px",
+                                      "marginTop": "20px",
+                                      "fontWeight": 400,
+                                      "letterSpacing": "0.6px",
+                                      "lineHeight": "30px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "span",
+                                  "text": "Besides design, I spend lots of time painting and crafting. \"Ink+Water\" features a series of ink paintings inspired by Chinese classical poetry. My work was invited to a global group exhibit \"Enter Into Art\" in Cologne, Germany in 2017.",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "color": "#14171a",
+                                      "fontSize": "12px",
+                                      "marginTop": "20px",
+                                      "fontWeight": 400,
+                                      "letterSpacing": "0.6px",
+                                      "lineHeight": "30px"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "span",
+                                  "text": "In addition, I enjoy spending time with my husband and 2 rescued kitties, salsa dancing, and urban gardening in the always chilly SF.",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "color": "#14171a",
+                                      "fontSize": "12px",
+                                      "marginTop": "20px",
+                                      "fontWeight": 400,
+                                      "letterSpacing": "0.6px",
+                                      "lineHeight": "30px"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "namespace": "Layout",
+                          "props": {
+                            "col": 6,
+                            "style": {
+                              "color": "#ffffff"
+                            }
+                          }
+                        }
+                      ],
+                      "namespace": "Layout"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "paddingRight": "70px",
+              "paddingLeft": "70px"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "fontFamily": "FuturaPTWeb"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "text": "email",
+                  "props": {
+                    "style": {
+                      "textTransform": "uppercase",
+                      "color": "#4f4f4f",
+                      "fontSize": "12px",
+                      "cursor": "pointer",
+                      "lineHeight": "12px",
+                      "fontWeight": 500,
+                      "letterSpacing": "2.88px",
+                      "marginRight": "10px"
+                    }
+                  }
+                },
+                {
+                  "type": "span",
+                  "text": "linkedin",
+                  "props": {
+                    "style": {
+                      "textTransform": "uppercase",
+                      "color": "#4f4f4f",
+                      "fontSize": "12px",
+                      "cursor": "pointer",
+                      "lineHeight": "12px",
+                      "fontWeight": 500,
+                      "letterSpacing": "2.88px",
+                      "marginRight": "10px"
+                    }
+                  }
+                },
+                {
+                  "type": "span",
+                  "text": "twitter",
+                  "props": {
+                    "style": {
+                      "textTransform": "uppercase",
+                      "color": "#4f4f4f",
+                      "fontSize": "12px",
+                      "cursor": "pointer",
+                      "lineHeight": "12px",
+                      "fontWeight": 500,
+                      "letterSpacing": "2.88px"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Page226",
+      "pagePath": "/new-page2",
+      "children": [
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "textAlign": "center",
+              "paddingTop": "18px",
+              "paddingRight": "68px",
+              "paddingBottom": "18px",
+              "paddingLeft": "68px"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "textAlign": "start"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "paddingTop": "5px",
+                      "paddingRight": "200px",
+                      "paddingBottom": "5px",
+                      "paddingLeft": "5px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "textAlign": "left",
+                          "alignItems": "center",
+                          "display": "inline-block",
+                          "position": "relative"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "yuan wang",
+                          "props": {
+                            "style": {
+                              "textTransform": "uppercase",
+                              "letterSpacing": "1em",
+                              "cursor": "pointer",
+                              "fontSize": "16px",
+                              "fontWeight": 700,
+                              "fontStyle": "normal",
+                              "lineHeight": "16px",
+                              "color": "#000000",
+                              "fontFamily": "FuturaPTWeb"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "inline-block"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "position": "absolute",
+                              "right": "70px",
+                              "top": "25px",
+                              "textTransform": "uppercase",
+                              "fontSize": "12px",
+                              "fontStyle": "normal",
+                              "fontWeight": 500,
+                              "letterSpacing": "2.88px",
+                              "cursor": "pointer",
+                              "lineHeight": "12px",
+                              "color": "#4f4f4f",
+                              "paddingRight": "10px",
+                              "fontFamily": "FuturaPTWeb"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "about",
+                              "props": {
+                                "style": {
+                                  "margin": "20px"
+                                }
+                              }
+                            },
+                            {
+                              "type": "span",
+                              "text": "work",
+                              "props": {}
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {},
+          "children": []
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "paddingRight": "70px",
+              "paddingLeft": "70px",
+              "paddingTop": "20px",
+              "display": "block"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "block",
+                  "alignItems": "flex-start",
+                  "justifyContent": "flex-start",
+                  "marginBottom": "20px"
+                }
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "img",
+                              "variant": "default",
+                              "props": {
+                                "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/5a512d3dec212d62e3d921bc/5a51509a419202e3242142ec/1515279700305/1_Threads.png",
+                                "style": {
+                                  "cursor": "pointer",
+                                  "width": "100%"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "img",
+                          "variant": "default",
+                          "props": {
+                            "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/5a512d3dec212d62e3d921bc/5a514f88652dea46dbbd5e7a/1515279692737/2_Tweets.png",
+                            "style": {
+                              "width": "100%",
+                              "cursor": "pointer"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {}
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "block",
+                  "alignItems": "flex-start",
+                  "justifyContent": "flex-start",
+                  "marginBottom": "20px"
+                }
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "img",
+                          "variant": "default",
+                          "props": {
+                            "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/5a512d3dec212d62e3d921bc/5a5155060d9297f9a57a6cd0/1515279665379/3_NUX.png?format=750w",
+                            "style": {
+                              "width": "100%",
+                              "cursor": "pointer"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "img",
+                          "variant": "default",
+                          "props": {
+                            "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/5a512d3dec212d62e3d921bc/5a516e980852298a12125177/1515287245829/4_tablet.png",
+                            "style": {
+                              "width": "100%",
+                              "cursor": "pointer"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {}
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "block",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "marginBottom": "20px"
+                }
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "img",
+                          "variant": "default",
+                          "props": {
+                            "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/5a512d3dec212d62e3d921bc/5a516e9871c10b6703b2ba43/1515287245849/5_metro.png?format=750w",
+                            "style": {
+                              "width": "100%",
+                              "cursor": "pointer"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "img",
+                          "variant": "default",
+                          "props": {
+                            "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/5a512d3dec212d62e3d921bc/5a5172e7f9619a83b9682edc/1515287340685/6_mhci.png?format=750w",
+                            "style": {
+                              "width": "100%",
+                              "cursor": "pointer"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    }
+                  ],
+                  "namespace": "Layout"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "paddingRight": "70px",
+              "paddingLeft": "70px"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "fontFamily": "FuturaPTWeb"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "text": "email",
+                  "props": {
+                    "style": {
+                      "textTransform": "uppercase",
+                      "color": "#4f4f4f",
+                      "fontSize": "12px",
+                      "cursor": "pointer",
+                      "lineHeight": "12px",
+                      "fontWeight": 500,
+                      "letterSpacing": "2.88px",
+                      "marginRight": "10px"
+                    }
+                  }
+                },
+                {
+                  "type": "span",
+                  "text": "linkedin",
+                  "props": {
+                    "style": {
+                      "textTransform": "uppercase",
+                      "color": "#4f4f4f",
+                      "fontSize": "12px",
+                      "cursor": "pointer",
+                      "lineHeight": "12px",
+                      "fontWeight": 500,
+                      "letterSpacing": "2.88px",
+                      "marginRight": "10px"
+                    }
+                  }
+                },
+                {
+                  "type": "span",
+                  "text": "twitter",
+                  "props": {
+                    "style": {
+                      "textTransform": "uppercase",
+                      "color": "#4f4f4f",
+                      "fontSize": "12px",
+                      "cursor": "pointer",
+                      "lineHeight": "12px",
+                      "fontWeight": 500,
+                      "letterSpacing": "2.88px"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Page226",
+      "pagePath": "/new-page3",
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "style": {
+              "display": "block",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "borderStyle": "solid",
+              "borderWidth": "47px",
+              "borderColor": "#ffffff"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "padding": "18px 68px 18px 68px"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "alignItems": "center",
+                      "justifyContent": "flex-start",
+                      "textAlign": "left",
+                      "display": "inline-block",
+                      "maxHeignt": 51.528,
+                      "maxWidth": 702.622
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "padding": "18px 12px 18px 12px",
+                          "textAlign": "left",
+                          "display": "inline-block"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "yuan wang",
+                          "props": {
+                            "style": {
+                              "fontSize": "16px",
+                              "textTransform": "uppercase",
+                              "fontFamily": "FuturaPTWeb",
+                              "color": "#000000",
+                              "fontWeight": 700,
+                              "cursor": "pointer",
+                              "lineHeight": "1em",
+                              "letterSpacing": "1em"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "inline-block",
+                      "justifyContent": "flex-end",
+                      "alignItems": "center",
+                      "position": "absolute",
+                      "right": "115px",
+                      "textAlign": "right",
+                      "padding": "18px 12px 18px 12px",
+                      "top": "62px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "alignItems": "center",
+                          "display": "inline-block",
+                          "paddingTop": "7.416px",
+                          "paddingBottom": "7.416px",
+                          "marginLeft": "14.76px",
+                          "marginRight": "14.76px"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "about",
+                          "props": {
+                            "style": {
+                              "fontSize": "12px",
+                              "fontWeight": 500,
+                              "cursor": "pointer",
+                              "textTransform": "uppercase",
+                              "letterSpacing": "0.24em",
+                              "lineHeight": "1em",
+                              "color": "#4f4f4f",
+                              "fontFamily": "FuturaPTWeb"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "alignItems": "center",
+                          "display": "inline-block",
+                          "paddingTop": "7.416px",
+                          "paddingBottom": "7.416px",
+                          "marginRight": "14.76px",
+                          "marginLeft": "14.76px"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "work",
+                          "props": {
+                            "style": {
+                              "fontSize": "12px",
+                              "fontWeight": 500,
+                              "cursor": "pointer",
+                              "textTransform": "uppercase",
+                              "letterSpacing": "0.24em",
+                              "lineHeight": "1em",
+                              "color": "#4f4f4f",
+                              "fontFamily": "FuturaPTWeb"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "paddingRight": "80px",
+                  "paddingLeft": "80px"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "textAlign": "left"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block",
+                          "justifyContent": "center",
+                          "textAlign": "left",
+                          "paddingBottom": "17px",
+                          "paddingRight": "17px"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "THREADS",
+                          "props": {
+                            "style": {
+                              "fontFamily": "FuturaPTWeb",
+                              "fontSize": "40px",
+                              "fontWeight": 700,
+                              "display": "inline-block",
+                              "color": "#000000",
+                              "letterSpacing": "0.4em",
+                              "lineHeight": "1em",
+                              "cursor": "auto"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "Row",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "Column",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "textAlign": "left",
+                                      "paddingRight": "17px",
+                                      "paddingBottom": "17px",
+                                      "paddingTop": "17px"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "div",
+                                      "variant": "default",
+                                      "props": {},
+                                      "children": [
+                                        {
+                                          "type": "span",
+                                          "text": "Shipped Dec 2017",
+                                          "props": {
+                                            "style": {
+                                              "display": "block",
+                                              "color": "#1d1d1d",
+                                              "fontSize": "13px",
+                                              "fontWeight": 400,
+                                              "cursor": "auto",
+                                              "lineHeight": "1.8em",
+                                              "textTransform": "uppercase",
+                                              "letterSpacing": "0.13px",
+                                              "textAlign": "left",
+                                              "marginBottom": "13px"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "span",
+                                          "text": "Threads(Tweetstorms) is a series of related Tweets posted by one person. It's a way to present someone's longer thoughts about a subject. Threads on Twitter today can be very popular and informative. But the existing method of creating a thread can be tricky. It’s often tough to read or discover all the Tweets in a thread.",
+                                          "props": {
+                                            "style": {
+                                              "display": "block",
+                                              "color": "#14171a",
+                                              "fontSize": "15px",
+                                              "fontWeight": 400,
+                                              "cursor": "auto",
+                                              "lineHeight": "2em",
+                                              "letterSpacing": "0.04px",
+                                              "textAlign": "left",
+                                              "fontFamily": "omnes",
+                                              "marginTop": "15px",
+                                              "marginBottom": "15px"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "span",
+                                          "text": "Me and my design teammate @stammy, product partner @thecleanmachine started looking solutions since March 2017. After months of cross-team collaboration, Twitter threads are officially here [blog post]. It's simpler to thread Tweets together, and to find threads.  It’s easier to express yourself on Twitter and stay informed.",
+                                          "props": {
+                                            "style": {
+                                              "display": "block",
+                                              "color": "#14171a",
+                                              "fontSize": "15px",
+                                              "fontWeight": 400,
+                                              "cursor": "auto",
+                                              "lineHeight": "2em",
+                                              "letterSpacing": "0.04px",
+                                              "textAlign": "left",
+                                              "fontFamily": "omnes",
+                                              "marginTop": "15px",
+                                              "marginBottom": "15px"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "span",
+                                          "text": "Available on iOS, Android, Desktop Web, Twitter Lite, TweetDeck.",
+                                          "props": {
+                                            "style": {
+                                              "display": "block",
+                                              "color": "#14171a",
+                                              "fontSize": "15px",
+                                              "fontWeight": 400,
+                                              "cursor": "auto",
+                                              "lineHeight": "2em",
+                                              "letterSpacing": "0.04px",
+                                              "textAlign": "left",
+                                              "fontFamily": "omnes",
+                                              "marginTop": "15px",
+                                              "marginBottom": "15px"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "namespace": "Layout",
+                          "props": {
+                            "col": 6
+                          }
+                        },
+                        {
+                          "type": "Column",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "padding": "17px",
+                                      "height": "auto"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/t/5a55d54f53450a0fe1b92c91/1515574624437/1_Threads.png?format=750w",
+                                        "style": {
+                                          "width": "100%"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "namespace": "Layout",
+                          "props": {
+                            "col": 6
+                          }
+                        }
+                      ],
+                      "namespace": "Layout"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "block",
+                  "paddingRight": "80px",
+                  "paddingLeft": "80px",
+                  "paddingBottom": "17px",
+                  "paddingTop": "17px"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "height": "108.212px"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "paddingRight": "80px",
+                  "paddingLeft": "80px"
+                }
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "display": "block",
+                              "paddingRight": "17px",
+                              "paddingBottom": "17px",
+                              "paddingLeft": "17px",
+                              "height": "53.125px"
+                            }
+                          },
+                          "children": []
+                        },
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "display": "block",
+                              "paddingTop": "17px",
+                              "paddingRight": "17px",
+                              "paddingBottom": "17px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "marginBottom": "16.600px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "SAY MORE WITH A THREAD",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "20px",
+                                      "cursor": "auto",
+                                      "fontWeight": 700,
+                                      "lineHeight": "1em",
+                                      "letterSpacing": "0.2em",
+                                      "fontFamily": "FuturaPTWeb"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "textAlign": "left",
+                                  "marginBottom": "16.600px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "We've refreshed the composer to enable a plus button to create threads, so you can connect your thoughts and publish your threaded Tweets all at at once.  This allows seamless transition from a composing a single Tweet to composing multiple as a thread.",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "15px",
+                                      "cursor": "auto",
+                                      "fontWeight": 400,
+                                      "lineHeight": "2em",
+                                      "letterSpacing": "0.04em",
+                                      "fontFamily": "omnes",
+                                      "color": "#14171a"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "paddingRight": "17px",
+                                  "paddingBottom": "17px",
+                                  "paddingLeft": "17px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "img",
+                                  "variant": "default",
+                                  "props": {
+                                    "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/t/5a55d4ae0d92974f914104b4/1515574513881/Threads.gif?format=750w",
+                                    "style": {
+                                      "width": "100%"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    }
+                  ],
+                  "namespace": "Layout"
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "block",
+                  "paddingRight": "80px",
+                  "paddingLeft": "80px",
+                  "paddingBottom": "17px",
+                  "paddingTop": "17px"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "height": "33.969px"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "paddingRight": "80px",
+                  "paddingLeft": "80px"
+                }
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "display": "block",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "paddingTop": "17px",
+                              "paddingRight": "17px",
+                              "paddingBottom": "17px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "img",
+                              "variant": "default",
+                              "props": {
+                                "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/t/5a55cd5b419202ee6a669560/1515572684226/TS_android_htl2.gif?format=750w",
+                                "style": {
+                                  "width": "100%"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "display": "block",
+                              "padding": "17px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "height": "140.547px"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "padding": "17px",
+                              "display": "block",
+                              "alignItems": "flex-start",
+                              "justifyContent": "flex-start"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "justifyContent": "center",
+                                  "height": "100px",
+                                  "alignItems": "center"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "DISCOVER &amp; CONSUME A THREAD",
+                                  "props": {
+                                    "style": {
+                                      "display": "inline-block",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "marginBottom": "16.6px",
+                                      "fontWeight": 700,
+                                      "fontSize": "20px",
+                                      "cursor": "auto",
+                                      "lineHeight": "1em",
+                                      "letterSpacing": "0.2em",
+                                      "fontFaily": "FuturaPTWeb"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "span",
+                                  "text": "Threads are now  recognized as first-class content on Twitter. When people Retweet, Quote Tweet threaded content, we've added  \"Show this thread\" label to make them easier to identify. ",
+                                  "props": {
+                                    "style": {
+                                      "display": "inline-block",
+                                      "alignItems": "center",
+                                      "alignContent": "center",
+                                      "cursor": "auto",
+                                      "fontWeight": 400,
+                                      "fontSize": "15px",
+                                      "lineHeight": "2em",
+                                      "letterSpacing": "0.04em",
+                                      "fontFamily": "omnes"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    }
+                  ],
+                  "namespace": "Layout"
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "block",
+                  "paddingRight": "80px",
+                  "paddingLeft": "80px",
+                  "paddingTop": "17px",
+                  "paddingBottom": "17px"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "height": "33.969px"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "paddingRight": "80px",
+                  "paddingLeft": "80px"
+                }
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "display": "block",
+                              "height": "166.328px",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "padding": "17px"
+                            }
+                          },
+                          "children": []
+                        },
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "display": "block",
+                              "paddingTop": "17px",
+                              "paddingRight": "17px",
+                              "paddingBottom": "17px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "marginBottom": "16.600px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "ADD MORE OVER TIME",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "20px",
+                                      "cursor": "auto",
+                                      "fontWeight": 700,
+                                      "lineHeight": "1em",
+                                      "letterSpacing": "0.2em",
+                                      "fontFamily": "FuturaPTWeb"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "textAlign": "left",
+                                  "marginBottom": "16.600px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "For many people, linking Tweets together as a thread was difficult and often considered power user knowledge. Now we've introduced a more prominent entry point for the author to continue a thread at any time.",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "15px",
+                                      "cursor": "auto",
+                                      "fontWeight": 400,
+                                      "lineHeight": "2em",
+                                      "letterSpacing": "0.04em",
+                                      "fontFamily": "omnes",
+                                      "color": "#14171a"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "padding": "17px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "img",
+                                  "variant": "default",
+                                  "props": {
+                                    "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/t/5a55d0c9652dea613b25d97c/1515573506017/image4.png?format=750w",
+                                    "style": {
+                                      "width": "100%"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 6
+                      }
+                    }
+                  ],
+                  "namespace": "Layout"
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "block",
+                  "paddingRight": "80px",
+                  "paddingLeft": "80px",
+                  "paddingTop": "17px",
+                  "paddingBottom": "17px"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "height": "67.969px"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "block",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "paddingLeft": "80px",
+                  "paddingRight": "80px"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "inline-block",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "borderRadius": "4px",
+                      "paddingBottom": "17px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "PROCESS",
+                      "props": {
+                        "style": {
+                          "fontFamily": "FuturaPTWeb",
+                          "fontSize": "40px",
+                          "fontWeight": 700,
+                          "display": "inline-block",
+                          "color": "#000000",
+                          "letterSpacing": "0.4em",
+                          "lineHeight": "1em",
+                          "cursor": "auto"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "block",
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "Row",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "Column",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "paddingTop": "17px",
+                                  "paddingRight": "17px",
+                                  "paddingBottom": "17px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "justifyContent": "center",
+                                      "alignItems": "center"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/t/5a55dc28c8302598d193de99/1515576365277/Screenshot+2018-01-10+01.24.04.png?format=500w",
+                                        "style": {
+                                          "width": "100%",
+                                          "maxWidth": "452.754px",
+                                          "maxHeight": "393px",
+                                          "height": "100%"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "paddingTop": "17px",
+                                  "paddingRight": "17px",
+                                  "paddingBottom": "17px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "marginBottom": "13px"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "text": "design sprints",
+                                      "props": {
+                                        "style": {
+                                          "fontSize": "13px",
+                                          "fontWeight": 400,
+                                          "fontStyle": "normal",
+                                          "cursor": "auto",
+                                          "lineHeight": "1.8em",
+                                          "letterSpacing": "0.13em",
+                                          "textTransform": "uppercase"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "marginTop": "15px"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "text": "Kicked off the design work with daily design sprints and fast feedback cycle with leadership and the rest of the design team. Lots of explorations around formatting and product consistency.",
+                                      "props": {
+                                        "style": {
+                                          "fontSize": "15px",
+                                          "fontWeight": 400,
+                                          "fontStyle": "normal",
+                                          "cursor": "auto",
+                                          "lineHeight": "2em",
+                                          "letterSpacing": "0.04em",
+                                          "fontFamily": "omnes"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "namespace": "Layout",
+                          "props": {
+                            "col": 4
+                          }
+                        },
+                        {
+                          "type": "Column",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "paddingTop": "17px",
+                                  "paddingLeft": "17px",
+                                  "paddingRight": "17px",
+                                  "paddingBottom": "17px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "justifyContent": "center",
+                                      "alignItems": "center"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/t/5a55dc49e4966b9db4780dc9/1515576398124/IMG_0495+%281%29.JPG?format=500w",
+                                        "style": {
+                                          "width": "100%",
+                                          "maxHeight": "452.754px",
+                                          "maxWidth": "452.754px",
+                                          "height": "100%"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "paddingTop": "17px",
+                                  "paddingRight": "17px",
+                                  "paddingBottom": "17px",
+                                  "paddingLeft": "17px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "marginBottom": "13px"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "text": "KICK-OFF BRAINSTORMS",
+                                      "props": {
+                                        "style": {
+                                          "fontSize": "13px",
+                                          "fontWeight": 400,
+                                          "fontStyle": "normal",
+                                          "cursor": "auto",
+                                          "lineHeight": "1.8em",
+                                          "letterSpacing": "0.13em",
+                                          "textTransform": "uppercase"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "marginTop": "15px"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "text": "Led a series of workshops to bring all stakeholders on the same page and gather input from everyone. Aligned on existing pain points, generate new ideas and solutions.",
+                                      "props": {
+                                        "style": {
+                                          "fontSize": "15px",
+                                          "fontWeight": 400,
+                                          "fontStyle": "normal",
+                                          "cursor": "auto",
+                                          "lineHeight": "2em",
+                                          "letterSpacing": "0.04em",
+                                          "fontFamily": "omnes"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "namespace": "Layout",
+                          "props": {
+                            "col": 4,
+                            "style": {
+                              "display": "block",
+                              "float": "left"
+                            }
+                          }
+                        },
+                        {
+                          "type": "Column",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "paddingTop": "17px",
+                                  "paddingLeft": "17px",
+                                  "paddingBottom": "17px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "justifyContent": "center",
+                                      "alignItems": "center"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/t/5a55de6ee4966b9db4783766/1515576950890/Screenshot+2018-01-10+01.35.25.png?format=500w",
+                                        "style": {
+                                          "width": "100%",
+                                          "height": "100%",
+                                          "maxHeight": "452.754px",
+                                          "maxWidth": "452.754px"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "paddingTop": "17px",
+                                  "paddingRight": "17px",
+                                  "paddingBottom": "17px",
+                                  "paddingLeft": "17px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "marginBottom": "13px"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "text": "PROTOTYPING &amp; TESTING",
+                                      "props": {
+                                        "style": {
+                                          "fontSize": "13px",
+                                          "fontWeight": 400,
+                                          "fontStyle": "normal",
+                                          "cursor": "auto",
+                                          "lineHeight": "1.8em",
+                                          "letterSpacing": "0.13em",
+                                          "textTransform": "uppercase"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "block",
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "marginTop": "15px"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "text": "Created prototypes in various fidelity, from early-stage idea pitching, hypothesis validating, to final-stage usability testing.",
+                                      "props": {
+                                        "style": {
+                                          "fontSize": "15px",
+                                          "fontWeight": 400,
+                                          "fontStyle": "normal",
+                                          "cursor": "auto",
+                                          "lineHeight": "2em",
+                                          "letterSpacing": "0.04em",
+                                          "fontFamily": "omnes"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "namespace": "Layout",
+                          "props": {
+                            "col": 4
+                          }
+                        }
+                      ],
+                      "namespace": "Layout"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "padding": "17px"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "block",
+                      "justifyContent": "center",
+                      "height": "306.859px",
+                      "alignItems": "center"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "block",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "borderStyle": "solid"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "block",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "paddingRight": "80px",
+                      "paddingLeft": "80px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "Row",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "Column",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "display": "block",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "paddingTop": "17px",
+                                  "paddingRight": "17px",
+                                  "paddingBottom": "17px"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "Other Projects",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "20px",
+                                      "fontFamily": "FuturaPTWeb",
+                                      "lineHeight": "1em",
+                                      "letterSpacing": "0.2em",
+                                      "fontWeight": 300,
+                                      "color": "#000",
+                                      "display": "block",
+                                      "cursor": "auto"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "namespace": "Layout",
+                          "props": {
+                            "col": 6
+                          }
+                        }
+                      ],
+                      "namespace": "Layout"
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "block",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "paddingRight": "80px",
+                      "paddingLeft": "80px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "paddingTop": "17px",
+                          "paddingBottom": "17px"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "Row",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "Column",
+                              "variant": "default",
+                              "children": [
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "flex",
+                                      "flexWrap": "wrap",
+                                      "float": "left",
+                                      "paddingRight": "17px",
+                                      "paddingBottom": "17px"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/5a5155d2c830256b61843f53/5a5155d2e4966ba79af4a541/1515279909654/2_Tweets.png?format=300w",
+                                        "style": {
+                                          "display": "flex",
+                                          "flexWrap": "wrap",
+                                          "maxWidth": 275.645,
+                                          "maxHeight": 206.719,
+                                          "width": "100%",
+                                          "height": "100%",
+                                          "cursor": "pointer"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "flex",
+                                      "flexWrap": "wrap",
+                                      "float": "left",
+                                      "padding": "0px 12px 12px 0px"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/5a5155d2c830256b61843f53/5a5155db652dea46dbbe68d7/1515279930717/3_NUX.png?format=300w",
+                                        "style": {
+                                          "display": "flex",
+                                          "flexWrap": "wrap",
+                                          "maxWidth": 275.645,
+                                          "maxHeight": 206.719,
+                                          "width": "100%",
+                                          "height": "100%",
+                                          "cursor": "pointer"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "flex",
+                                      "flexWrap": "wrap",
+                                      "float": "left",
+                                      "padding": "0px 12px 12px 0px"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/5a5155d2c830256b61843f53/5a51755ce2c483af0beeee67/1515288029884/4_tablet.png?format=300w",
+                                        "style": {
+                                          "display": "flex",
+                                          "flexWrap": "wrap",
+                                          "maxWidth": 275.645,
+                                          "maxHeight": 206.719,
+                                          "width": "100%",
+                                          "height": "100%",
+                                          "cursor": "pointer"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "flex",
+                                      "flexWrap": "wrap",
+                                      "float": "left",
+                                      "padding": "0px 12px 12px 0px"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/5a5155d2c830256b61843f53/5a516347419202e324243e2c/1515283298258/5_metro.png?format=300w",
+                                        "style": {
+                                          "display": "flex",
+                                          "flexWrap": "wrap",
+                                          "maxWidth": 275.645,
+                                          "maxHeight": 206.719,
+                                          "width": "100%",
+                                          "height": "100%",
+                                          "cursor": "pointer"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "display": "flex",
+                                      "flexWrap": "wrap",
+                                      "float": "left",
+                                      "padding": "0px 12px 12px 0px"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "https://static1.squarespace.com/static/502eb5d284ae7fae2e635767/5a5155d2c830256b61843f53/5a51756324a694bca83388d6/1515288002089/6_mhci.png?format=300w",
+                                        "style": {
+                                          "display": "flex",
+                                          "flexWrap": "wrap",
+                                          "maxWidth": 275.645,
+                                          "maxHeight": 206.719,
+                                          "width": "100%",
+                                          "height": "100%",
+                                          "cursor": "pointer"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ],
+                              "namespace": "Layout",
+                              "props": {
+                                "style": {
+                                  "display": "flex"
+                                }
+                              }
+                            },
+                            {
+                              "type": "Column",
+                              "variant": "default",
+                              "children": [],
+                              "namespace": "Layout",
+                              "props": {}
+                            }
+                          ],
+                          "namespace": "Layout"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "block",
+                      "paddingRight": "80px",
+                      "paddingLeft": "80px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "paddingTop": "20px",
+                          "paddingBottom": "20px"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "display": "inline-block",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "paddingRight": "12.5px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "email",
+                              "props": {
+                                "style": {
+                                  "fontSize": "12.5px",
+                                  "fontFamily": "FuturaPTWeb",
+                                  "fontWeight": 500,
+                                  "cursor": "pointer",
+                                  "lineHeight": "2em",
+                                  "letterSpacing": "0.1em",
+                                  "textTransform": "uppercase"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "display": "inline-block",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "paddingRight": "12.5px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "linked",
+                              "props": {
+                                "style": {
+                                  "fontSize": "12.5px",
+                                  "fontFamily": "FuturaPTWeb",
+                                  "fontWeight": 500,
+                                  "cursor": "pointer",
+                                  "lineHeight": "2em",
+                                  "letterSpacing": "0.1em",
+                                  "textTransform": "uppercase"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "display": "inline-block",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "paddingRight": "12.5px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "twitter",
+                              "props": {
+                                "style": {
+                                  "fontSize": "12.5px",
+                                  "fontFamily": "FuturaPTWeb",
+                                  "fontWeight": 500,
+                                  "cursor": "pointer",
+                                  "lineHeight": "2em",
+                                  "letterSpacing": "0.1em",
+                                  "textTransform": "uppercase"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Page227",
+      "pagePath": "/new-page1-1",
       "children": [
         {
           "type": "div",

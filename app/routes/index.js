@@ -1,8 +1,6 @@
 import React from "react";
-import Page79 from "./Page79";
-import Page77 from "./Page77";
-import Page128 from "./Page128";
-
+import Page491 from "./Page491";
+import Page35 from "./Page35";
 class App extends React.Component {
   render() {
     return (
@@ -12,31 +10,25 @@ class App extends React.Component {
     );
   }
 }
-
 export default {
   path: "/",
   component: App,
-  indexRoute: { component: Page79 },
+  indexRoute: { component: Page491 },
   childRoutes: [
     {
-      path: "/home",
-      name: "/home",
-      component: Page79
+      path: "/new-page2",
+      name: "/new-page2",
+      component: Page491
     },
     {
-      path: "/example-01",
-      name: "/example-01",
-      component: Page77
-    },
-    {
-      path: "/example-02",
-      name: "/example-02",
-      component: Page128
+      path: "/new-page3",
+      name: "/new-page3",
+      component: Page35
     },
     {
       path: "*",
       name: "notfound",
-      component: Page79
+      component: Page491
     }
   ]
 };
